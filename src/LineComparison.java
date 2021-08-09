@@ -20,5 +20,17 @@ public class LineComparison {
         {
             System.out.println("Length is equal!");
         }
+        int value=L1.compareTo(L2);
+
+        if(value<0)
+        {
+            System.out.println("Line 2 is Bigger");
+        }
+
+        else if(value>0)
+        {
+            System.out.println("Line 1 is Bigger");
+        }
+
     }
 }
