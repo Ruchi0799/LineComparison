@@ -5,12 +5,20 @@ public class LineComparison {
         int L1y1=5;
         int L1x2=7;
         int L1y2=9;
-        int L2x1=2;
-        int L2y1=4;
-        int L2x2=6;
-        int L2y2=8;
+        int L2x1=4;
+        int L2y1=5;
+        int L2x2=7;
+        int L2y2=9;
 
         double Length1=Math.sqrt(Math.pow(L1x2-L1x1,2)+Math.pow(L1y2-L1y1,2));
         double Length2=Math.sqrt(Math.pow(L2x2-L2x1,2)+Math.pow(L2y2-L2y1,2));
+
+        String L1=String.valueOf(Length1);
+        String L2=String.valueOf(Length2);
+
+        if(L1.equals(L2))
+        {
+            System.out.println("Length is equal!");
+        }
     }
 }
